@@ -63,9 +63,7 @@ UART_HandleTypeDef huart2;
 UART_HandleTypeDef huart3;
 UART_HandleTypeDef huart7;
 
-// I2C addresses of GPIO expanders on the X-NUCLEO-53L1A1
-#define EXPANDER_1_ADDR 0x84 // 0x42 << 1
-#define EXPANDER_2_ADDR 0x86 // 0x43 << 1
+
 
 /* USER CODE END PV */
 
@@ -182,7 +180,7 @@ int main(void)
   zero_time2 = HAL_GetTick();
   zero_time3 = HAL_GetTick();
 
-
+  tof_init();
   while (1)
   {
 	  sonar_1 = sonar_s1(sonar_1);
