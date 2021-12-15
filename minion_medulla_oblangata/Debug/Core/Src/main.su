@@ -1,0 +1,10 @@
+main.c:135:8:send_data	32	static
+main.c:89:5:main	112	static
+main.c:150:8:led_1_on	16	static
+main.c:154:8:led_1_off	16	static
+main.c:158:8:led_2_on	16	static
+main.c:162:8:led_2_off	16	static
+main.c:166:8:led_3_on	16	static
+main.c:170:8:led_3_off	16	static
+main.c:276:6:SystemClock_Config	232	static
+main.c:342:6:Error_Handler	4	static,ignoring_inline_asm

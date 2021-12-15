@@ -1,0 +1,4 @@
+iBus.c:16:6:HAL_UART_RxCpltCallback	16	static
+iBus.c:70:17:DecodeReceiverState	48	static
+iBus.c:115:17:HandleReceiverMessage	40	static
+iBus.c:135:6:CheckUartInterruptStatus	16	static
